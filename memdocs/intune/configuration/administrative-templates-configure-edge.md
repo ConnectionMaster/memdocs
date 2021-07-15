@@ -4,7 +4,7 @@ description: Add or create settings using ADMX administrative templates to confi
 ms.author: mandia
 author: MandiOhlinger
 manager: dougeby
-ms.date: 01/19/2021
+ms.date: 02/26/2021
 audience: ITPro
 ms.topic: how-to
 ms.service: microsoft-intune
@@ -32,7 +32,7 @@ This article applies to:
 - Windows 10 and newer
 - Microsoft Edge version 77 and newer
 
-  For Microsoft Edge version 45 and earlier, see [Microsoft Edge Browser device restrictions](device-restrictions-windows-10.md#microsoft-edge-browser).
+  For Microsoft Edge version 45 and earlier, see [Microsoft Edge Browser device restrictions](device-restrictions-windows-10.md#microsoft-edge-legacy-version-45-and-older).
 
 When you use Intune to manage and enforce policies, it's similar to using Active Directory group policy, or configuring local Group Policy Object (GPO) settings on user devices. But, Intune is 100% cloud.
 
@@ -62,7 +62,7 @@ This article shows you how to configure Microsoft Edge policy settings using adm
 3. Enter the following properties:
 
     - **Platform**: Select **Windows 10 and later**.
-    - **Profile**: Select **Administrative Templates**.
+    - **Profile**: Select **Templates** > **Administrative Templates**.
 
 4. Select **Create**.
 5. In **Basics**, enter the following properties:
